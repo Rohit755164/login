@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./IMAGES/login1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: gray;
+}
+form{
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.603);
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+}
+h1,input,button,a{
+    display: block;
+    margin: 10px;
+}
+form h1{
+    text-align: center;
+    font-family: 'Borel', cursive;
+}
+input{
+    width: 90%;
+    height: 30px;
+    margin-left: 14px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
+}
+button{
+    height: 25px;
+    width: 100%;
+    /* width: 30%; */
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 35%; */
+}
+#a{
+    display: flex;
+}
+
